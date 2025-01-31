@@ -6,7 +6,7 @@ class Bot(ABot):
         # todo logic
         # Example:
         new_users = [
-            NewUser(username="TestBot", name="Emilie", description="Hello I'm a bot")
+            NewUser(username="TestBot", name="Allenna", description="Hello I'm a bot")
         ]
         return new_users
 
