@@ -6,7 +6,12 @@ class Bot(ABot):
         # todo logic
         # Example:
         new_users = [
-            NewUser(username="TestBot", name="Allenna", description="Hello I'm a bot")
+            NewUser(username="TestBot1", name="Allenna1", description="Hello I'm a bot"),
+            NewUser(username="TestBot2", name="Allenna2", description="Hello I'm a bot"),
+            NewUser(username="TestBot3", name="Allenna3", description="Hello I'm a bot"),
+            NewUser(username="TestBot4", name="Allenna4", description="Hello I'm a bot"),
+            NewUser(username="TestBot5", name="Allenna5", description="Hello I'm a bot"),
+            
         ]
         return new_users
 
@@ -16,5 +21,6 @@ class Bot(ABot):
         # Example:
         posts = []
         for j in range(len(users_list)):
-            posts.append(NewPost(text="Pandas are amazing!", author_id=users_list[j].user_id, created_at='2024-03-17T00:20:30.000Z',user=users_list[j]))
+            for i in range(10):
+                posts.append(NewPost(text=f'{i} Pandas are amazing!', author_id=users_list[j].user_id, created_at='2024-03-17T00:20:30.000Z',user=users_list[j]))
         return posts
