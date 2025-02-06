@@ -8,9 +8,9 @@ authentication_token = os.getenv('AUTH_TOKEN')
 session_id = os.getenv('SESSION_ID')
 
 # Testing Environment Variables
-# base_url = 'http://3.83.177.68:3000/api/test/2'
-# authentication_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWFtSWQiOiI0NCIsInRlYW1OYW1lIjoiYWxsZW5uYWJvdDEiLCJpYXQiOjE3Mzg2MDQ0NjUsImV4cCI6MTczODY5MDg2NX0.NyE36e52nVygLROZvXTNmxodI5skNhEAZMz9YAYL6sU"
-# session_id = 2
+# base_url = 'http://3.92.68.65:3000/api/test/3'
+# authentication_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWFtSWQiOiI0NCIsInRlYW1OYW1lIjoiYWxsZW5uYWJvdDEiLCJpYXQiOjE3Mzg4NjMwMzQsImV4cCI6MTczODk0OTQzNH0.ry19yPnJBdlzc643-hPzcKpC8jXsO_h-S2MKgsH3T5Y"
+# session_id = 3
 
 header = {'Authorization': 'bearer ' + authentication_token, 'Content-Type': 'application/json'}
 
